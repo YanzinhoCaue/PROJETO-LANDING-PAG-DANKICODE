@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #212343;
+}
+
+header img {
+  margin: 20px;
+}
+
+main {
+  width: 100%;
+  height: 557px;
+  background-image: url(../images/header_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 400px;
+  height: calc(100% + 30px);
+  background-color: #fff;
+  position: relative;
+  top: -15px;
+  border: 8px solid rgba(120, 120, 120, 0.5);
+  float: right;
+  padding: 10px;
+  margin-right: 40px;
+  background-clip: padding-box;
+}
+
+.container h2 {
+  font-weight: normal;
+  color: #999;
+  font-size: 20px;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container label, p{
+  display: inline-block;
+  width: 100%;
+  color: #bbb;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input-container input {
+  width: 344px;
+  height: 55px;
+  border: 1px solid #ccc;
+  padding: 6px;
+  margin-top: 8px;
+}
+
+form p {
+  margin: 20px 0;
+}
+
+.container-submit {
+  text-align: center;
+}
+
+form .enviar {
+  width: 280px;
+  height: 56px;
+  color: #fff;
+  background-color: #363A6D;
+  font-size: 25px;
+  display: inline-block;
+  border: none;
+  border-bottom: 6px #212343 solid;
+  border-left: 6px #212343 solid;
+}
+
+form .enviar:hover {
+  border: none;
+  cursor: pointer;
+}
+
+.container-list {
+  margin: 100px 0 0 40px;
+  float: left;
+  width: 620px;
+  height: 270px;
+  background-color: rgba(33, 35, 67, 0.7);
+  padding: 40px;
+}
+
+.container-list ul {
+  list-style-position: inside;
+}
+
+.container-list ul li {
+  color: #fff;
+  margin-top: 18px;
+}
+
+.section-one {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #ddd;
+}
+
+.container-text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-text h2 {
+  font-weight: normal;
+}
+
+.container-text p {
+  color: #212343;
+}
+
+.arrow {
+  position: relative;
+  top: 60px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/arrow.png);
+  background-size: 100% 100%;
+}
+
+.section-two {
+  padding: 90px 0;
+}
+
+.section-two h2 {
+  text-align: center;
+  color: #462663;
+  font-weight: normal;
+}
+
+.card {
+  margin-top: 40px;
+  text-align: center;
+  padding: 40px;
+}
+
+.card img{
+  width: 70px;
+}
+
+.card p {
+  padding: 30px;
+  color: #333;
+}
+
+.text-single {
+  float: left;
+  width: 33.333%;
+}
+
+footer {
+  clear: both;
+  border-top: 2px solid #888;
+  padding: 20px 0;
+  text-align: center;
+  color: #888;
+}
+
+footer p {
+  color: #555;
+}
